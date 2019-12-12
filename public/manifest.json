@@ -5,5 +5,11 @@
   "browser_action": {
     "default_icon": "logo192.png",
     "default_popup": "index.html"
-  }
+  },
+  "content_scripts" : [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": ["/static/js/content_script.js"]
+    }
+  ]
 }
