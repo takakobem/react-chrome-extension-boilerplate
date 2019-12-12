@@ -6,7 +6,8 @@ module.exports = {
     // ビルドするファイルを追加
     config.entry = {
       main: [path.resolve("src/index")],
-      content_script: [path.resolve("src/content_script")]
+      content_script: [path.resolve("src/content_script")],
+      background_script: [path.resolve("src/background_script")]
     };
 
     // ファイル名にhashが含まれないようにする

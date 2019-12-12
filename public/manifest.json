@@ -11,5 +11,8 @@
       "matches": [ "<all_urls>" ],
       "js": ["/static/js/content_script.js"]
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["/static/js/background_script.js"]
+  }
 }
